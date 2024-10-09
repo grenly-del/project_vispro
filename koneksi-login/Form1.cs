@@ -62,7 +62,7 @@ namespace koneksi_login
                         sandi = kolom["password"].ToString();
                         if (sandi == txtPassword.Text)
                         {
-                            TugasProject frmMain = new TugasProject();
+                            Project_Main frmMain = new Project_Main();
                             frmMain.Show();
                         }
                         else
